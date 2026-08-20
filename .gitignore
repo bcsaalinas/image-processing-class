@@ -1,10 +1,2 @@
 .DS_Store
-.eli5-project-setup.md
-
 /build/
-/cmake-build-*/
-assets/
-/notes/
-
-/outputs/*
-!/outputs/.gitkeep
