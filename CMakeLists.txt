@@ -21,7 +21,7 @@ message(STATUS "Using OpenCV ${OpenCV_VERSION} from ${OpenCV_DIR}")
 file(
     GLOB_RECURSE CLASS_EXERCISE_SOURCES
     CONFIGURE_DEPENDS
-    "${CMAKE_CURRENT_SOURCE_DIR}/sessions/*.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/sessions/*/*.cpp"
 )
 
 if(NOT CLASS_EXERCISE_SOURCES)

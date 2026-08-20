@@ -52,6 +52,6 @@ int main()
     while (cv::waitKey(0) != 27) {
     }
 
-    cv::destroyAllWindows();
+    cv::destroyAllWindows();    
     return 0;
 }
