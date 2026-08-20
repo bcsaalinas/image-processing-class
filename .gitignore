@@ -1,0 +1,9 @@
+.DS_Store
+
+/build/
+/cmake-build-*/
+assets/
+/notes/
+
+/outputs/*
+!/outputs/.gitkeep
